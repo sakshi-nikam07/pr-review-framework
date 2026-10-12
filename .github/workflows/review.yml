@@ -1,5 +1,5 @@
 # Put this file in the repository whose Pull Requests you want reviewed (e.g. demo-shop-app).
-# The reviewer code lives in its own repo; replace YOUR_USER/pr-review-framework below.
+# The reviewer code lives in its own repo; replace sakshi-nikam07/pr-review-framework below.
 name: AI PR Review
 on:
   pull_request:
@@ -19,7 +19,7 @@ jobs:
       - name: Checkout the reviewer tool
         uses: actions/checkout@v4
         with:
-          repository: YOUR_USER/pr-review-framework
+          repository: sakshi-nikam07/pr-review-framework
           path: .reviewer
       - uses: actions/setup-python@v5
         with:
