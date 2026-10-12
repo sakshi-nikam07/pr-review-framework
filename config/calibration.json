@@ -1,0 +1,35 @@
+{
+  "bug": {
+    "BARE_EXCEPT": 0.889,
+    "DIV_BY_ZERO": 0.917,
+    "MUTABLE_DEFAULT": 0.909
+  },
+  "performance": {
+    "NESTED_LOOP": 0.667
+  },
+  "security": {
+    "COMMAND_INJECTION": 0.875,
+    "HARDCODED_SECRET": 0.6,
+    "INSECURE_DESERIALIZATION": 0.833,
+    "SQL_INJECTION": 0.778,
+    "UNSAFE_EVAL": 0.6,
+    "WEAK_HASH": 0.812
+  },
+  "static": {
+    "BARE_EXCEPT": 0.889,
+    "COMMAND_INJECTION": 0.833,
+    "HARDCODED_SECRET": 0.5,
+    "INSECURE_DESERIALIZATION": 0.833,
+    "MUTABLE_DEFAULT": 0.909,
+    "NESTED_LOOP": 0.875,
+    "RESOURCE_LEAK": 0.75,
+    "SQL_INJECTION": 0.667,
+    "UNSAFE_EVAL": 0.8,
+    "UNUSED_VARIABLE": 0.923,
+    "WEAK_HASH": 0.9
+  },
+  "style": {
+    "RESOURCE_LEAK": 0.75,
+    "UNUSED_VARIABLE": 0.923
+  }
+}

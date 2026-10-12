@@ -1,0 +1,4 @@
+# Core framework: standard library only (no installation needed).
+# Optional extras:
+matplotlib>=3.7      # evaluation chart (results/comparison.png)
+bandit>=1.7          # optional real Bandit integration  (--use-bandit)

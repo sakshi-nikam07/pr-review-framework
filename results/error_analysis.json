@@ -1,0 +1,62 @@
+{
+  "secret_token_type": {
+    "missed_bug": 0,
+    "false_alarm": 10
+  },
+  "md5_checksum": {
+    "missed_bug": 0,
+    "false_alarm": 9
+  },
+  "grid_loop": {
+    "missed_bug": 0,
+    "false_alarm": 9
+  },
+  "secret_join": {
+    "missed_bug": 8,
+    "false_alarm": 0
+  },
+  "div_local": {
+    "missed_bug": 6,
+    "false_alarm": 0
+  },
+  "eval_getattr": {
+    "missed_bug": 5,
+    "false_alarm": 0
+  },
+  "pickle_alias": {
+    "missed_bug": 5,
+    "false_alarm": 0
+  },
+  "cmd_getattr": {
+    "missed_bug": 4,
+    "false_alarm": 0
+  },
+  "leak_io_open": {
+    "missed_bug": 3,
+    "false_alarm": 0
+  },
+  "eval_comment": {
+    "missed_bug": 0,
+    "false_alarm": 2
+  },
+  "sql_join": {
+    "missed_bug": 1,
+    "false_alarm": 0
+  },
+  "sha256_ok": {
+    "missed_bug": 0,
+    "false_alarm": 1
+  },
+  "single_loop": {
+    "missed_bug": 0,
+    "false_alarm": 1
+  },
+  "sql_param_named": {
+    "missed_bug": 0,
+    "false_alarm": 1
+  },
+  "sql_log_message": {
+    "missed_bug": 0,
+    "false_alarm": 1
+  }
+}
